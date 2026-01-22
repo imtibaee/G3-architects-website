@@ -9,7 +9,7 @@
 }
 .header{
     background-color: rgba(255, 144, 14, 0.1);
-    width: 100%;
+    /* width: 100%; */
     padding: 50px 240px 0px 228px;
 }
 .navbar{
@@ -62,5 +62,29 @@
     font-size:20px;
     font-weight: 500;
     color: white;
-
+}
+.container{
+    display: flex;
+    max-width: 1440px;
+    margin: 78px auto;
+}
+.container-content{
+    max-width: 537px;
+    margin-left: 73px;
+    align-content: center;
+}
+.container-content h1{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.color-grey{
+    color: #727272;
+}
+.color-orange{
+    color: #FF900E;
+}
+.container-content p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
 }
