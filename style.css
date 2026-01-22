@@ -1,0 +1,66 @@
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    padding: 50px 240px 0px 228px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h2{
+    font-size:45px;
+    color: #131313;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size:18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #424242;
+}
+.banner{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 102px 240px 45px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content img{
+    margin-top: 50px;
+}
+.content h1{
+    font-size: 64px;
+    color: rgba(19, 19, 19, 1);
+}
+.content p{
+    margin: 20px auto;
+    max-width: 868px;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(114, 114, 114, 1);
+}
+.btn{
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 21px 25px;
+    font-size:20px;
+    font-weight: 500;
+    color: white;
+
+}
