@@ -156,12 +156,19 @@
 .mini-card-box{
     border: 1px solid rgba(255, 144, 14, 1);
     border-radius: 8px;
-    max-height: 260px;
-    padding: 46px 36px 59px 36px;
+    padding-top: 46px;
+    height: 245px;
+    width: 240px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+/* .mini-card-box img{
+    mar
+} */
 .mini-card-box h3{
     margin-top:10px;
+    margin-bottom: 5px;
     font-size: 45px;
     font-weight: 500;
     color: rgba(66, 66, 66, 1);
@@ -169,5 +176,42 @@
 .mini-card-box p{
     font-size: 20px;
     font-weight: 500;
-    margin-top:5px ;
+}
+.sponsor{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-content{
+    max-width: 542px;
+    margin: 0px auto;
+    text-align: center;
+}
+.sponsor-content h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+    margin-bottom: 24px;
+}
+.sponsor-content p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.sponsor-logo img{
+    filter: grayscale(100%);
+}
+.copyright{
+    max-width: 1440px;
+    margin: 130px auto 216px;
+    padding:39px 410px;
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 8px;
+}
+.copyright p{
+    color: rgba(66, 66, 66, 1);
+    font-size: 20px;
 }
